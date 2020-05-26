@@ -33,6 +33,7 @@ It was created using HTML and CSS styles.
 + Used container sections in the Main content block, omitted the use of `<div class = "main"> </div>`.
 >  
 >  
+#  
 >  
 >  
     
