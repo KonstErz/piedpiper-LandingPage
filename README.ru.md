@@ -37,6 +37,6 @@
 >  
 #  
     
-                ![Silicon Valley img](Pictures/valley.jpg)
+       ![Silicon Valley img](Pictures/valley.jpg)
     
 
