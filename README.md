@@ -31,10 +31,11 @@ It was created using HTML and CSS styles.
 + Hardcoding is possible to minimize.
 + Navigation links and blocks with team members are implemented using *unordered lists*.
 + Used container sections in the Main content block, omitted the use of `<div class = "main"> </div>`.
-  
-  
-  
-  
-  
-  
+    
+    
+    
+    
+
 ![Silicon Valley img](Pictures/valley.jpg)
+    
+
