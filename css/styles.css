@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.container {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container__menu {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container__menu:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header {
+	background-color: #007765;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	float: left;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+
+nav {
+	float: right;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+nav a {
+	text-decoration: none;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  position: relative;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #FFFFFF;}
+.menu-main a.current, .menu-main a:hover{color: #FFFFFF;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #FFFFFF;
+  transition: .8s;
+}
+.menu-main a:hover:before {left: 0;}
+.menu-main a:hover:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+.pipernet {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 128px;
+	padding-bottom: 128px;
+	background-image: url('../Pictures/PiperNetBlock.svg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.pipernet__message {
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.problem {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 48px;
+	padding-bottom: 92px;
+	background-color: #EEEEEE;
+}
+
+.problem__heading {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+.problem__message {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.hero {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 128px;
+	padding-bottom: 128px;
+	background-image: url('../Pictures/HeroBlock.svg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero__message {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	font-style: italic;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.coin {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 48px;
+	padding-bottom: 92px;
+	background-color: #FFFFFF;
+}
+
+.coin__heading {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+.ppc__logo {
+	float: left;
+	padding-right: 48px;
+}
+
+.coin__message {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.team {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 48px;
+	padding-bottom: 94px;
+	background-color: #EEEEEE;
+}
+
+.team__heading {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+ul.team__members {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+	text-align: center;
+	list-style: none;
+}
+
+.team__members li {
+	display: inline-block;
+	padding: 30px 55px 30px;
+}
+
+.name {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+}
+
+.post {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.footer {
+	box-sizing: border-box;
+	width: 100%;
+	height: 176px;
+	padding-top: 50px;
+	background-color: #333333;
+}
+
+.footer__message {
+	width: 540px;
+  	height: 64px;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+}
