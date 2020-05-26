@@ -37,7 +37,7 @@ It was created using HTML and CSS styles.
 >  
 #  
     
-       ![Silicon Valley img](Pictures/valley.jpg)
+![Silicon Valley img](Pictures/valley.jpg)
     
     
 
