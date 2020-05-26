@@ -33,9 +33,9 @@
 + Использованы контейнеры с секциями в блоке с Основным контентом, опущен блок `<div class = "main"> </div>`.
 >  
 >  
+>  
+>  
 #  
->  
->  
     
 ![Silicon Valley img](Pictures/valley.jpg)
     
