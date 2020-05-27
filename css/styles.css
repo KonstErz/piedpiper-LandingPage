@@ -31,6 +31,10 @@ header {
 	right: 0;
 }
 
+div a {
+	outline: none;
+}
+
 .logo {
 	float: left;
 	padding-top: 21px;
