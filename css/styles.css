@@ -198,10 +198,9 @@ nav a {
 }
 
 .team {
-	box-sizing: border-box;
 	width: 100%;
 	padding-top: 48px;
-	padding-bottom: 94px;
+	padding-bottom: 64px;
 	background-color: #EEEEEE;
 }
 
@@ -213,20 +212,26 @@ nav a {
 	color: #007765;
 }
 
-ul.team__members {
+.team__members {
 	max-width: 1219px;
 	padding: 0 55px;
-	margin: 0 auto;
-	text-align: center;
-	list-style: none;
+	margin: 32px auto;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
 }
 
-.team__members li {
-	display: inline-block;
-	padding: 30px 55px 30px;
+.member {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 24px;
+	margin-bottom: 30px;
+	flex-basis: 33%;
 }
 
 .name {
+	margin: 0;
+  	margin-top: 12px;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;

@@ -29,8 +29,10 @@ It was created using HTML and CSS styles.
 
 + The properties of most children in styles are set separately. The parent container only sets the *font-family* and stream cleanup.
 + Hardcoding is possible to minimize.
-+ Navigation links and blocks with team members are implemented using *unordered lists*.
 + Used container sections in the Main content block, omitted the use of `<div class = "main"> </div>`.
++ Navigation links are implemented using *unordered lists*.
++ In the updated version of the page, the block with the team members is implemented using *flexbox*.
+
 >  
 >  
 >  
